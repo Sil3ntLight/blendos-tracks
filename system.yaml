@@ -1,0 +1,11 @@
+repo: 'https://pkg-repo.blendos.co/'
+
+impl: 'https://github.com/Sil3ntLight/blendos-tracks/raw/main'
+
+track: 'plasma'
+
+packages:
+  - 'code'
+
+aur-packages:
+  - 'google-chrome'

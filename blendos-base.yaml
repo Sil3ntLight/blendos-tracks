@@ -9,6 +9,7 @@ packages:
   - 'bash-completion'
   - 'blend'
   - 'btrfs-progs'
+  - 'curl'
   - 'dnsmasq'
   - 'dosfstools'
   - 'e2fsprogs'
@@ -62,6 +63,7 @@ packages:
   - 'networkmanager'
   - 'cups'
   - 'base-devel'
+  - 'paru'
 
 services:
   - 'cups'
@@ -70,3 +72,10 @@ services:
 
 user-services:
   - 'blend-files'
+
+package-repos:
+  - name: 'chaotic-aur'
+    repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
+
+commands:
+  - 'curl https://raw.githubusercontent.com/Sil3ntLight/blendos-tracks/main/akshara /usr/bin/akshara && chmod 755 /usr/bin/akshara'

@@ -1,4 +1,4 @@
-impl: 'https://github.com/ico277/blendos-tracks/raw/main'
+impl: 'https://github.com/Sil3ntLight/blendos-tracks/raw/main'
 
 track: 'blendos-desktop'
 
@@ -16,3 +16,4 @@ services:
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
+
